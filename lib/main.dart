@@ -21,12 +21,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  @override
-  void dispose() {
-    // Closes all Hive boxes
-    Hive.close();
-    super.dispose();
-  }
+  
 
   @override
   Widget build(BuildContext context) {

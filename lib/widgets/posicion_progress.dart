@@ -5,31 +5,31 @@ import 'package:hive/hive.dart';
 Widget positionProgressTheory(int leg, int dir, int pri, int mec, int mei) {
   return Container(
     width: 250,
-    height: 150,
+    height: 160,
     child: Stack(
       children: <Widget>[
         Positioned(
-          top: 14,
+          top: 3,
           left: 0,
           child: linearPercentIndicator(18, leg),
         ),
         Positioned(
-          top: 42,
+          top: 40,
           left: 0,
           child: linearPercentIndicator(16, dir),
         ),
         Positioned(
-          top: 72,
+          top: 78,
           left: 0,
           child: linearPercentIndicator(4, pri),
         ),
         Positioned(
-          top: 103,
+          top: 114,
           left: 0,
           child: linearPercentIndicator(3, mec),
         ),
         Positioned(
-          top: 131,
+          top: 150,
           left: 0,
           child: linearPercentIndicator(4, mei),
         ),
@@ -45,12 +45,12 @@ Widget positionProgressPratice(int moto, int carro) {
     child: Stack(
       children: <Widget>[
         Positioned(
-          top: 14,
+          top: 10,
           left: 0,
           child: linearPercentIndicator(20, moto),
         ),
         Positioned(
-          top: 42,
+          top: 41,
           left: 0,
           child: linearPercentIndicator(20, carro),
         ),

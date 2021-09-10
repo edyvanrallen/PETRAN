@@ -40,8 +40,8 @@ class _ClassScreenState extends State<ClassScreen> {
       pri: widget.person.pri,
       mec: widget.person.mec,
       mei: widget.person.mei,
-      moto: widget.person.carro,
-      carro: widget.person.moto,
+      moto: widget.person.moto,
+      carro: widget.person.carro,
     );
 
     box.putAt(widget.index, newPerson);

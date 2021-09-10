@@ -5,7 +5,7 @@ Widget linearPercentIndicator(int scale, int progress) {
   if(progress <= scale){
      return LinearPercentIndicator(
     width: (scale * 13),
-    lineHeight: 7,
+    lineHeight: 10,
     percent: 
     (((progress * 13) * 100) / (scale * 13)) / 100,
     linearStrokeCap: LinearStrokeCap.roundAll,
@@ -14,7 +14,7 @@ Widget linearPercentIndicator(int scale, int progress) {
   }else{
     return LinearPercentIndicator(
     width: (scale * 13),
-    lineHeight: 7,
+    lineHeight: 10,
     percent: 
     (((scale * 13) * 100) / (scale * 13)) / 100,
     linearStrokeCap: LinearStrokeCap.roundAll,

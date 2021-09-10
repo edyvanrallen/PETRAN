@@ -88,7 +88,7 @@ class _UpdatePersonFormState extends State<UpdatePersonForm> {
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child:
-                    textFormField('Renach', _renachController, _fieldValidator),
+                    renachFormField('Renach', _renachController, _fieldValidator),
               ),
               Padding(
                 padding: const EdgeInsets.all(15.0),
