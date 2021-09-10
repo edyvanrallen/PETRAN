@@ -75,16 +75,16 @@ class _AddPersonFormState extends State<AddPersonForm> {
               ),
               Padding(
                 padding: const EdgeInsets.all(15.0),
-                child: textFormField('CPF', _cpfController, _fieldValidator),
+                child: cpfFormField('CPF', _cpfController, _fieldValidator),
               ),
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child:
-                    textFormField('Renach', _renachController, _fieldValidator),
+                    renachFormField('Renach', _renachController, _fieldValidator),
               ),
               Padding(
                 padding: const EdgeInsets.all(15.0),
-                child: textFormField(
+                child: telefoneFormField(
                     'Telefone', _phoneController, _fieldValidator),
               ),
               Ink(

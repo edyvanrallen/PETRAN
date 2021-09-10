@@ -220,7 +220,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              circlePercentIndicator(geralPersent, 100),
+                              circlePercentIndicator(geralPersent, 90),
                               profileData(cpf, renach, phone),
                             ],
                           ),

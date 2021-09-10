@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 Widget profileData(String cpf, String renach, String telefone) {
   return Container(
     width: 170,
-    height: 120,
+    height: 105,
     child: Stack(
       children: <Widget>[
         Positioned(
@@ -12,16 +12,16 @@ Widget profileData(String cpf, String renach, String telefone) {
           child: Text(
             cpf,
             textAlign: TextAlign.left,
-            style: TextStyle(color: Colors.white, fontSize: 24, height: 1),
+            style: TextStyle(color: Colors.white, fontSize: 23, height: 1),
           ),
         ),
         Positioned(
           top: 40,
           left: 0,
           child: Text(
-            renach,
+            'PI$renach',
             textAlign: TextAlign.left,
-            style: TextStyle(color: Colors.white, fontSize: 24, height: 1),
+            style: TextStyle(color: Colors.white, fontSize: 23, height: 1),
           ),
         ),
         Positioned(
@@ -30,7 +30,7 @@ Widget profileData(String cpf, String renach, String telefone) {
           child: Text(
             telefone,
             textAlign: TextAlign.left,
-            style: TextStyle(color: Colors.white, fontSize: 24, height: 1),
+            style: TextStyle(color: Colors.white, fontSize: 23, height: 1),
           ),
         ),
       ],
