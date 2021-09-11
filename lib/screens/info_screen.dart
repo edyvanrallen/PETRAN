@@ -52,7 +52,8 @@ class _InfoScreenState extends State<InfoScreen> {
                     size: 30,
                     color: Colors.white,
                   ))),
-          title: textFormField('Pesquisar', _nameController, _fieldValidator)),
+          title: textFormField('Pesquisar', _nameController, _fieldValidator)
+          ),
       body: ValueListenableBuilder(
         valueListenable: contactBox.listenable(),
         builder: (context, Box box, widget) {
